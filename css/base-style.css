@@ -1,0 +1,37 @@
+/* Base Styles -------------------- */
+
+* {
+	box-sizing: border-box;
+}
+
+form {
+	margin: 60px 20px;
+
+}
+
+/* Form Fields -------------------- */
+
+input,
+textarea {
+  font-size: 1em;
+  color: black;
+  font-weight: 300; 
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 15px;
+  outline: 0;
+  margin-bottom: 1.2em;
+  border-radius: .3em;
+  border-bottom: 3px solid rgba(0,0,0, 0.05);
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em; 
+}
+
+/* Media Queries -------------------- */
+
